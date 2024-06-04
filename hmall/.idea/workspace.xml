@@ -4,46 +4,47 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="801bc80a-2336-4ec3-b90c-df8ca744886f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cart-service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cart-service/src/main/java/com/hmall/cart/CartApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cart-service/src/main/java/com/hmall/cart/controller/CartController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cart-service/src/main/java/com/hmall/cart/domain/dto/CartFormDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cart-service/src/main/java/com/hmall/cart/domain/dto/ItemDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cart-service/src/main/java/com/hmall/cart/domain/po/Cart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cart-service/src/main/java/com/hmall/cart/domain/vo/CartVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cart-service/src/main/java/com/hmall/cart/mapper/CartMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cart-service/src/main/java/com/hmall/cart/service/ICartService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cart-service/src/main/java/com/hmall/cart/service/impl/CartServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cart-service/src/main/resources/application-dev.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cart-service/src/main/resources/application-local.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cart-service/src/main/resources/application.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cart-service/src/main/resources/mapper/CartMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/item-service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/item-service/src/main/java/com/hmall/item/ItemApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/item-service/src/main/java/com/hmall/item/controller/ItemController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/item-service/src/main/java/com/hmall/item/domain/dto/ItemDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/item-service/src/main/java/com/hmall/item/domain/dto/OrderDetailDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/item-service/src/main/java/com/hmall/item/domain/po/Item.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/item-service/src/main/java/com/hmall/item/domain/po/OrderDetail.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/item-service/src/main/java/com/hmall/item/domain/query/ItemPageQuery.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/item-service/src/main/java/com/hmall/item/mapper/ItemMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/item-service/src/main/java/com/hmall/item/service/IItemService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/item-service/src/main/java/com/hmall/item/service/impl/ItemServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/item-service/src/main/resources/application-dev.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/item-service/src/main/resources/application-local.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/item-service/src/main/resources/application.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/item-service/src/main/resources/mapper/ItemMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="801bc80a-2336-4ec3-b90c-df8ca744886f" name="Changes" comment="微服务01">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hm-api/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hm-api/src/main/java/com/hmall/api/client/ItemClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hm-api/src/main/java/com/hmall/api/config/DefaultFeignConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hm-api/src/main/resources/application-dev.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hm-api/src/main/resources/application-local.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hm-api/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/hmall/user/UserApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/hmall/user/config/JwtProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/hmall/user/config/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/hmall/user/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/hmall/user/domain/dto/AddressDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/hmall/user/domain/dto/LoginFormDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/hmall/user/domain/po/Address.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/hmall/user/domain/po/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/hmall/user/domain/vo/UserLoginVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/hmall/user/enums/UserStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/hmall/user/mapper/AddressMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/hmall/user/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/hmall/user/service/IAddressService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/hmall/user/service/IUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/hmall/user/service/impl/AddressServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/hmall/user/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/hmall/user/utils/JwtTool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/resources/application-dev.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/resources/application-local.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/resources/hmall.jks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hm-service/src/main/resources/application-local.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/hm-service/src/main/resources/application-local.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cart-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cart-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cart-service/src/main/java/com/hmall/cart/CartApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/cart-service/src/main/java/com/hmall/cart/CartApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cart-service/src/main/java/com/hmall/cart/domain/dto/ItemDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/hm-api/src/main/java/com/hmall/api/dto/ItemDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cart-service/src/main/java/com/hmall/cart/service/impl/CartServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/cart-service/src/main/java/com/hmall/cart/service/impl/CartServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cart-service/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/cart-service/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/item-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/item-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/item-service/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/item-service/src/main/resources/application.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,8 +52,17 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -88,13 +98,15 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "jdk.selected.JAVA_MODULE": "11",
-    "last_opened_file_path": "E:/springcloud/springcloud/hmall/cart-service/src/main/resources/mapper",
+    "last_opened_file_path": "E:/springcloud/springcloud/hmall/user-service/src/main/java/com/hmall/user",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Project",
+    "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "vcs.Git",
@@ -108,18 +120,24 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\springcloud\springcloud\hmall\user-service\src\main\java\com\hmall\user" />
+      <recent name="E:\springcloud\springcloud\hmall\user-service\src\main\resources" />
+      <recent name="E:\springcloud\springcloud\hmall\hm-api\src\main\resources" />
+      <recent name="E:\springcloud\springcloud\hmall\hm-api\src\main" />
       <recent name="E:\springcloud\springcloud\hmall\cart-service\src\main\resources\mapper" />
-      <recent name="E:\springcloud\springcloud\hmall\cart-service\src\main\resources" />
-      <recent name="E:\springcloud\springcloud\hmall\item-service\src\main\resources" />
-      <recent name="E:\springcloud\springcloud\hmall\item-service\src\main\resources\mapper" />
-      <recent name="E:\springcloud\springcloud\hmall\item-service\src\main\java\com\hmall\item\domain\po" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.hmall.api.config" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.hmall.cart.domain.dto" />
-      <recent name="com.hmall.cart.controller" />
-      <recent name="com.hmall.cart.service.impl" />
-      <recent name="com.hmall.cart.service" />
-      <recent name="com.hmall.cart.mapper" />
+      <recent name="com.hmall.user.config" />
+      <recent name="com.hmall.user.service.impl" />
+      <recent name="com.hmall.user.service" />
+      <recent name="com.hmall.user.mapper" />
+      <recent name="com.hmall.user.domain.po" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -129,7 +147,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.CartApplication">
+  <component name="RunManager" selected="Spring Boot.UserApplication">
     <configuration name="CartApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <option name="ACTIVE_PROFILES" value="local" />
       <module name="cart-service" />
@@ -154,8 +172,40 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ItemApplication2" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" activateToolWindowBeforeRun="false">
+      <option name="ACTIVE_PROFILES" value="local" />
+      <option name="INCLUDE_PROVIDED_SCOPE" value="false" />
+      <module name="item-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hmall.item.ItemApplication" />
+      <option name="VM_PARAMETERS" value="-Dserver.port=8083" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <option name="ACTIVE_PROFILES" value="local" />
+      <module name="user-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hmall.user.UserApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hmall.user.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.UserApplication" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpringBootOptions">
+    <option name="showAdditionalConfigNotification" value="false" />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="801bc80a-2336-4ec3-b90c-df8ca744886f" name="Changes" comment="" />
@@ -164,8 +214,16 @@
       <option name="presentableId" value="Default" />
       <updated>1717235663226</updated>
       <workItem from="1717235664325" duration="7000" />
-      <workItem from="1717235944631" duration="10320000" />
+      <workItem from="1717235944631" duration="21810000" />
     </task>
+    <task id="LOCAL-00001" summary="微服务01">
+      <created>1717419026427</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1717419026427</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -182,12 +240,16 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="微服务01" />
+    <option name="LAST_COMMIT_MESSAGE" value="微服务01" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/cart-service/src/main/java/com/hmall/cart/CartApplication.java</url>
-          <line>12</line>
+          <line>16</line>
           <properties class="com.hmall.cart.CartApplication" method="main">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
