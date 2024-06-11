@@ -4,30 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="801bc80a-2336-4ec3-b90c-df8ca744886f" name="Changes" comment="微服务拆分">
-      <change afterPath="$PROJECT_DIR$/cart-service/src/main/resources/bootstrap.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hm-common/src/main/java/com/hmall/common/config/MvcConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hm-common/src/main/java/com/hmall/common/interceptors/UserInfoInterceptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hm-gateway/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hm-gateway/src/main/java/com/hmall/gateway/GatewayApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hm-gateway/src/main/java/com/hmall/gateway/config/AuthProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hm-gateway/src/main/java/com/hmall/gateway/config/JwtProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hm-gateway/src/main/java/com/hmall/gateway/config/SecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hm-gateway/src/main/java/com/hmall/gateway/filter/AuthGlobalFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hm-gateway/src/main/java/com/hmall/gateway/filter/PrintAnyGatewayFilterFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hm-gateway/src/main/java/com/hmall/gateway/filter/PrintAnyGlobalFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hm-gateway/src/main/java/com/hmall/gateway/util/JwtTool.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hm-gateway/src/main/resources/application.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hm-gateway/src/main/resources/hmall.jks" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/item-service/src/main/java/com/hmall/item/controller/SearchController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="801bc80a-2336-4ec3-b90c-df8ca744886f" name="Changes" comment="配置共享">
+      <change afterPath="$PROJECT_DIR$/cart-service/src/main/java/com/hmall/cart/config/CartProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hm-api/src/main/java/com/hmall/api/client/fallback/ItemClientFallback.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cart-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cart-service/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cart-service/src/main/java/com/hmall/cart/service/impl/CartServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/cart-service/src/main/java/com/hmall/cart/service/impl/CartServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cart-service/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/cart-service/src/main/resources/application.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hm-common/src/main/resources/META-INF/spring.factories" beforeDir="false" afterPath="$PROJECT_DIR$/hm-common/src/main/resources/META-INF/spring.factories" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hm-api/src/main/java/com/hmall/api/client/ItemClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/hm-api/src/main/java/com/hmall/api/client/ItemClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hm-api/src/main/java/com/hmall/api/config/DefaultFeignConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/hm-api/src/main/java/com/hmall/api/config/DefaultFeignConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/item-service/src/main/java/com/hmall/item/controller/ItemController.java" beforeDir="false" afterPath="$PROJECT_DIR$/item-service/src/main/java/com/hmall/item/controller/ItemController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +70,7 @@
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "jdk.selected.JAVA_MODULE": "11",
-    "last_opened_file_path": "E:/springcloud/springcloud/hmall/cart-service/src/main/resources",
+    "last_opened_file_path": "E:/算法",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -172,16 +158,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ItemApplication2" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" activateToolWindowBeforeRun="false">
-      <option name="ACTIVE_PROFILES" value="local" />
-      <option name="INCLUDE_PROVIDED_SCOPE" value="false" />
-      <module name="item-service" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hmall.item.ItemApplication" />
-      <option name="VM_PARAMETERS" value="-Dserver.port=8083" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="PayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <option name="ACTIVE_PROFILES" value="local" />
       <module name="pay-service" />
@@ -238,7 +214,7 @@
       <option name="presentableId" value="Default" />
       <updated>1717235663226</updated>
       <workItem from="1717235664325" duration="7000" />
-      <workItem from="1717235944631" duration="38005000" />
+      <workItem from="1717235944631" duration="46202000" />
     </task>
     <task id="LOCAL-00001" summary="微服务01">
       <created>1717419026427</created>
@@ -261,7 +237,14 @@
       <option name="project" value="LOCAL" />
       <updated>1717581526395</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="配置共享">
+      <created>1718090865256</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1718090865256</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -281,7 +264,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="微服务01" />
     <MESSAGE value="微服务拆分" />
-    <option name="LAST_COMMIT_MESSAGE" value="微服务拆分" />
+    <MESSAGE value="配置共享" />
+    <option name="LAST_COMMIT_MESSAGE" value="配置共享" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -298,7 +282,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/cart-service/src/main/java/com/hmall/cart/service/impl/CartServiceImpl.java</url>
-          <line>46</line>
+          <line>47</line>
           <option name="timeStamp" value="12" />
         </line-breakpoint>
       </breakpoints>
